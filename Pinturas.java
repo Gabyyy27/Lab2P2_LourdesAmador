@@ -10,6 +10,7 @@ package Laboratorio2;
  * @author Lourdes
  */
 public class Pinturas {
+
     private String nombre;
     private String autor;
     private int DiaPresentacion;
@@ -54,11 +55,12 @@ public class Pinturas {
         this.MesAdquision = MesAdquision;
         this.AñoAdquision = AñoAdquision;
         this.Posicion = Posicion;
+   
     }
 
     @Override
     public String toString() {
-        return "\n " + "\n Nombre de la Pintura= " + nombre + "\n Autor= " + autor + "\n Fecha de Presentacion= " + DiaPresentacion + "/" + MesPresentacion + "/" + AñoPresentacion + "\n Fecha de Adquision= " + DiaAdquision + "/" + MesAdquision + "/" + AñoAdquision + "\n Posicion Actual= " + Posicion ;
+        return "\n PINTURAS \n" + "\n Nombre de la Pintura= " + nombre + "\n Autor= " + autor + "\n Fecha de Presentacion= " + DiaPresentacion + "/" + MesPresentacion + "/" + AñoPresentacion + "\n Fecha de Adquision= " + DiaAdquision + "/" + MesAdquision + "/" + AñoAdquision + "\n Posicion Actual= " + Posicion ;
     }
   
 }
