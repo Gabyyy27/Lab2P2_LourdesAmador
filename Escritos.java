@@ -59,5 +59,5 @@ public class Escritos {
         return "\n ESCRITOS: \n" + "\nTotal Palabras del Escrito= " + TotalPalabras + "\n Autor del Escrito= " + AutorEscrito + "\n Epoca que fue Redactado= " + EpocaRedaccion + "\n Genero Literario= " + GeneroLiterario ;
     }
     
-    
+   
 }
